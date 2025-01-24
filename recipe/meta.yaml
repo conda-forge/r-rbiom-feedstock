@@ -28,14 +28,17 @@ requirements:
     - r-dplyr                    # [build_platform != target_platform]
     - r-emmeans                  # [build_platform != target_platform]
     - r-fillpattern              # [build_platform != target_platform]
+    - r-ggbeeswarm               # [build_platform != target_platform]
     - r-ggnewscale               # [build_platform != target_platform]
     - r-ggplot2                  # [build_platform != target_platform]
+    - r-ggrepel                  # [build_platform != target_platform]
     - r-ggtext                   # [build_platform != target_platform]
     - r-jsonlite                 # [build_platform != target_platform]
     - r-magrittr                 # [build_platform != target_platform]
     - r-mgcv                     # [build_platform != target_platform]
     - r-openxlsx                 # [build_platform != target_platform]
     - r-parallelly               # [build_platform != target_platform]
+    - r-patchwork                # [build_platform != target_platform]
     - r-pillar                   # [build_platform != target_platform]
     - r-plyr                     # [build_platform != target_platform]
     - r-r.utils                  # [build_platform != target_platform]
@@ -62,14 +65,17 @@ requirements:
     - r-dplyr
     - r-emmeans
     - r-fillpattern
+    - r-ggbeeswarm
     - r-ggnewscale
     - r-ggplot2
+    - r-ggrepel
     - r-ggtext
     - r-jsonlite
     - r-magrittr
     - r-mgcv
     - r-openxlsx
     - r-parallelly
+    - r-patchwork
     - r-pillar
     - r-plyr
     - r-r.utils
@@ -85,14 +91,17 @@ requirements:
     - r-dplyr
     - r-emmeans
     - r-fillpattern
+    - r-ggbeeswarm
     - r-ggnewscale
     - r-ggplot2
+    - r-ggrepel
     - r-ggtext
     - r-jsonlite
     - r-magrittr
     - r-mgcv
     - r-openxlsx
     - r-parallelly
+    - r-patchwork
     - r-pillar
     - r-plyr
     - r-r.utils
