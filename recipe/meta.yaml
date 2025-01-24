@@ -1,4 +1,4 @@
-{% set version = "2.0.10" %}
+{% set version = "2.0.13" %}
 
 {% set posix = 'm2-' if win else '' %}
 
@@ -10,11 +10,11 @@ source:
   url:
     - {{ cran_mirror }}/src/contrib/rbiom_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/rbiom/rbiom_{{ version }}.tar.gz
-  sha256: aa86d2746eef5bb778b4928dca2bb36d79b0c9e814a86e5dcbd5eaf548f9da59
+  sha256: 4e6988ebf4fa618c85846c6d844ab98a5492f3c01ef52ac11883aed2141abbf5
 
 build:
   number: 0
-  skip: True  # [win]
+  skip: true  # [win]
 
   rpaths:
     - lib/R/lib/
