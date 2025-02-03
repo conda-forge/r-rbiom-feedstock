@@ -9,18 +9,22 @@ About r-rbiom
 
 Home: https://cmmr.github.io/rbiom/index.html
 
-Package license: AGPL-3.0-only
+Package license: MIT
 
 Summary: A toolkit for working with Biological Observation Matrix ('BIOM') files. Features include reading/writing all 'BIOM' formats, rarefaction, alpha diversity, beta diversity (including 'UniFrac'), summarizing counts by taxonomic level, and sample subsetting. Standalone functions for reading, writing, and subsetting phylogenetic trees are also provided. All CPU intensive operations are encoded in C with multi-thread support.
+
+Development: https://github.com/cmmr/rbiom
 
 About r-rbiom
 -------------
 
 Home: https://cmmr.github.io/rbiom/index.html
 
-Package license: AGPL-3.0-only
+Package license: MIT
 
 Summary: A toolkit for working with Biological Observation Matrix ('BIOM') files. Features include reading/writing all 'BIOM' formats, rarefaction, alpha diversity, beta diversity (including 'UniFrac'), summarizing counts by taxonomic level, and sample subsetting. Standalone functions for reading, writing, and subsetting phylogenetic trees are also provided. All CPU intensive operations are encoded in C with multi-thread support.
+
+Development: https://github.com/cmmr/rbiom
 
 Current build status
 ====================
