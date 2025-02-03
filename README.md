@@ -7,18 +7,18 @@ Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-rbiom-feedsto
 About r-rbiom
 -------------
 
-Home: https://cmmr.github.io/rbiom/index.html
+Home: https://cmmr.github.io/rbiom/index.html, https://github.com/cmmr/rbiom
 
-Package license: AGPL-3.0-only
+Package license: MIT
 
 Summary: A toolkit for working with Biological Observation Matrix ('BIOM') files. Features include reading/writing all 'BIOM' formats, rarefaction, alpha diversity, beta diversity (including 'UniFrac'), summarizing counts by taxonomic level, and sample subsetting. Standalone functions for reading, writing, and subsetting phylogenetic trees are also provided. All CPU intensive operations are encoded in C with multi-thread support.
 
 About r-rbiom
 -------------
 
-Home: https://cmmr.github.io/rbiom/index.html
+Home: https://cmmr.github.io/rbiom/index.html, https://github.com/cmmr/rbiom
 
-Package license: AGPL-3.0-only
+Package license: MIT
 
 Summary: A toolkit for working with Biological Observation Matrix ('BIOM') files. Features include reading/writing all 'BIOM' formats, rarefaction, alpha diversity, beta diversity (including 'UniFrac'), summarizing counts by taxonomic level, and sample subsetting. Standalone functions for reading, writing, and subsetting phylogenetic trees are also provided. All CPU intensive operations are encoded in C with multi-thread support.
 
@@ -240,7 +240,4 @@ Feedstock Maintainers
 
 * [@conda-forge/r](https://github.com/orgs/conda-forge/teams/r/)
 * [@dansmith01](https://github.com/dansmith01/)
-
-
-<!-- dummy commit to enable rerendering -->
 
