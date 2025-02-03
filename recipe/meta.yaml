@@ -1,5 +1,4 @@
 {% set version = "2.0.13" %}
-
 {% set posix = 'm2-' if win else '' %}
 
 package:
@@ -15,7 +14,6 @@ source:
 build:
   number: 0
   skip: true  # [win]
-
   rpaths:
     - lib/R/lib/
     - lib/
@@ -58,7 +56,6 @@ requirements:
     - {{ posix }}sed               # [win]
     - {{ posix }}coreutils         # [win]
     - {{ posix }}zip               # [win]
-
   host:
     - r-base
     - r-ape
@@ -117,14 +114,13 @@ test:
     - "\"%R%\" -e \"library('rbiom')\""  # [win]
 
 about:
-  home: https://cmmr.github.io/rbiom/index.html, https://github.com/cmmr/rbiom
-
+  home: https://cmmr.github.io/rbiom/index.html
+  dev_url: https://github.com/cmmr/rbiom
   license: MIT
   license_family: MIT
   license_file:
     - {{ environ["PREFIX"] }}/lib/R/share/licenses/MIT
     - LICENSE
-
   summary: A toolkit for working with Biological Observation Matrix ('BIOM') files. Features include reading/writing all 'BIOM' formats, rarefaction, alpha diversity, beta diversity (including 'UniFrac'), summarizing counts by taxonomic level, and sample subsetting. Standalone functions for reading, writing, and subsetting
     phylogenetic trees are also provided. All CPU intensive operations are encoded in C with multi-thread support.
 
