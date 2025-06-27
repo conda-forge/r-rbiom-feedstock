@@ -1,4 +1,4 @@
-{% set version = "2.2.0" %}
+{% set version = "2.2.1" %}
 {% set posix = 'm2-' if win else '' %}
 
 package:
@@ -9,7 +9,7 @@ source:
   url:
     - {{ cran_mirror }}/src/contrib/rbiom_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/rbiom/rbiom_{{ version }}.tar.gz
-  sha256: 7005f1702c8c820b02219820eadd6409506f7f7bdfc7712d87335514ad81f4dc
+  sha256: 5068d9e7f87974f8acb908277727d31454780ac04aca7f3ba614db61c97ee8f6
 
 build:
   number: 0
