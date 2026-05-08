@@ -1,4 +1,4 @@
-{% set version = "2.2.1" %}
+{% set version = "3.1.0" %}
 {% set posix = 'm2-' if win else '' %}
 
 package:
@@ -9,10 +9,10 @@ source:
   url:
     - {{ cran_mirror }}/src/contrib/rbiom_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/rbiom/rbiom_{{ version }}.tar.gz
-  sha256: 5068d9e7f87974f8acb908277727d31454780ac04aca7f3ba614db61c97ee8f6
+  sha256: 7fc55e2267489a952e9d5fe06f79dbd4cdff202f9b3ebb4fe694c72f56d1a621
 
 build:
-  number: 1
+  number: 0
   skip: true  # [win]
   rpaths:
     - lib/R/lib/
@@ -52,7 +52,6 @@ requirements:
     - {{ posix }}sed               # [win]
     - {{ posix }}coreutils         # [win]
     - {{ posix }}zip               # [win]
-
   host:
     - r-base
     - r-ape
@@ -112,8 +111,8 @@ about:
   license_file:
     - {{ environ["PREFIX"] }}/lib/R/share/licenses/MIT
     - LICENSE
-  summary: A toolkit for working with Biological Observation Matrix ('BIOM') files. Features include reading/writing all 'BIOM' formats, rarefaction, alpha diversity, beta diversity (including 'UniFrac'), summarizing counts by taxonomic level, and sample subsetting. Standalone functions for reading, writing, and subsetting
-    phylogenetic trees are also provided. All CPU intensive operations are encoded in C with multi-thread support.
+  summary: A toolkit for working with Biological Observation Matrix ('BIOM') files. Features include reading/writing all 'BIOM' formats, rarefaction, alpha diversity, beta diversity (including 'UniFrac'), summarizing counts by taxonomic level, and sample subsetting. Standalone functions for reading, writing, and 
+    subsetting phylogenetic trees are also provided. All CPU intensive operations are encoded in C with multi-thread support.
 
 extra:
   recipe-maintainers:
