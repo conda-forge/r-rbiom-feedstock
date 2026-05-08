@@ -33,11 +33,13 @@ requirements:
     - r-ggtext                   # [build_platform != target_platform]
     - r-jsonlite                 # [build_platform != target_platform]
     - r-magrittr                 # [build_platform != target_platform]
+    - r-parallelly               # [build_platform != target_platform]
     - r-patchwork                # [build_platform != target_platform]
     - r-pillar                   # [build_platform != target_platform]
     - r-plyr                     # [build_platform != target_platform]
     - r-readr                    # [build_platform != target_platform]
     - r-readxl                   # [build_platform != target_platform]
+    - r-slam                     # [build_platform != target_platform]
     - r-vegan                    # [build_platform != target_platform]
     - {{ compiler('c') }}              # [not win]
     - {{ stdlib("c") }}                # [not win]
@@ -65,11 +67,13 @@ requirements:
     - r-ggtext
     - r-jsonlite
     - r-magrittr
+    - r-parallelly
     - r-patchwork
     - r-pillar
     - r-plyr
     - r-readr
     - r-readxl
+    - r-slam
     - r-vegan
 
   run:
@@ -86,11 +90,13 @@ requirements:
     - r-ggtext
     - r-jsonlite
     - r-magrittr
+    - r-parallelly
     - r-patchwork
     - r-pillar
     - r-plyr
     - r-readr
     - r-readxl
+    - r-slam
     - r-vegan
 
 test:
